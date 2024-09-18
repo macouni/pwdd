@@ -1,0 +1,61 @@
+:root{
+    --bglight:#c1c3f1;
+    --bgdark:#6464b9;
+    --white:#fff;
+    --inputmodal:#7474cb;
+    --form:#e6e7fa;
+}
+*{font-family: fontmine;}
+@font-face {
+    font-family:fontmine;
+    src: url(../font/TitilliumWeb-Regular.ttf);
+}
+ul{list-style-type: none;}
+html{
+    scroll-behavior: smooth;
+
+}
+.logo{
+    width:155px;
+}
+.bgColorLight{
+    background-color: var(--bglight);
+}
+.bgColorDark{
+    background-color: var(--bgdark);
+}
+.bgForm{background-color: var(--form);}
+.mssgBg ,.bgP{
+    background-size: cover; 
+    position:relative;
+    background-attachment: fixed;
+    color:white;
+    background-position: center;
+}
+.mssgBg{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../img/mssbgbanner.jpg") ;
+     height:400px;
+}
+.bgP{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../img/beckham.jpg") ;
+height:300px;
+}
+.mssg-text{
+    width:90%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}.mssg-text h2{
+    font-size: 50px;
+}
+.btn-m{
+font-size: 16px;
+background: var(--bglight);
+}
+.sitemap i{
+    font-size: 25px;
+}
+
+    
